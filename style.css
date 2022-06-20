@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100%;
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+/*хедер*/
+.header__container{
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #153051;
+    margin-bottom: 154px;
+}
+
+.header__nav{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.header__nav__list{
+    display: flex;
+
+}
+.header__nav__list li{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav__list__text{
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.header__nav__list__img{
+    margin-right: 48px;
+    cursor: pointer;
+}
+
+.header__nav__list__img:nth-child(2){
+    margin-right: 38px;
+}
+
+.header__btn{
+    width: 171px;
+    height: 52px;
+    color: #FFFFFF;
+    background: #153051;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+/*информация*/
+
+.information__title__text{
+    display: inline-block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    color: #153051;
+    margin-bottom: 50px;
+}
+
+.information__text{
+    display: inline-block;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #153051;
+    margin-bottom: 50px;
+}
+
+.information__text a{
+    text-decoration: none;
+    color: #2f74c8;
+}
+
+.information__text__search{
+   text-align: center;
+}
+
+.information__text__input{
+    width: 359px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 2px solid #FFDB21;
+    border-radius: 4px;
+    padding-left: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    outline: none;
+}
+
+.information__text__btn{
+    width: 171px;
+    height: 52px;
+    background: #FFDB21;
+    border-radius: 4px;
+    border: none;
+    margin-left: -10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+}
